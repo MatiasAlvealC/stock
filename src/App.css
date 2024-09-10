@@ -1,0 +1,49 @@
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#333
+}
+
+p {
+    padding: 10px;
+}
+
+#wrapper {
+    width: 100%;
+    min-width: 1000px;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+#header {
+    float: left;
+    height: 75px;
+    width: 100%;
+    background: #0483e5;
+}
+
+#navigation {
+    float: left;
+    height: 40px;
+    width: 100%;
+    background: #0477c9;
+}
+
+#contentliquid {
+    float: left;
+    width: 100%;
+}
+
+#content {
+    background: #ffffff;
+    width: 100%;
+}
+
+#footer {
+    height: 40px;
+    width: 100%;
+    background: #0483E5;
+    clear: both;
+}
+
