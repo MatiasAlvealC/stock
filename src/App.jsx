@@ -5,9 +5,9 @@ import Navbar from './components/Navbar';
 // Importa tus componentes de página aquí
 import Inventario from './pages/Inventario';
 import Reporte from './pages/Reporte';
-import Estadistica from './pages/Caja';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import Caja from './pages/Caja';
 
 function App() {
   return (
@@ -29,8 +29,8 @@ function App() {
             <Route path="/inventario" element={<Inventario />} />
             {/* Ruta para la página de Reporte */}
             <Route path="/reporte" element={<Reporte />} />
-            {/* Ruta para la página de Estadística */}
-            <Route path="/estadistica" element={<Estadistica />} />
+            {/* Ruta para la página de Caja */}
+            <Route path="/caja" element={<Caja />} />
           </Routes>
         </div>
       </div>
